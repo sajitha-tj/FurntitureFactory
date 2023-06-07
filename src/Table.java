@@ -1,3 +1,3 @@
 public interface Table {
-    public void putOn();
+    void putOn();
 }

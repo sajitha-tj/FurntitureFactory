@@ -1,3 +1,3 @@
 public interface Sofa {
-    public void lieOn();
+    void lieOn();
 }
