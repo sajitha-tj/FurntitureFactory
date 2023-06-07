@@ -6,7 +6,7 @@ public class Main {
         FurnitureFactory victorianFurnitureFactory = new VictorianFurnitureFactory();
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the type of furniture you want");
+        System.out.println("Enter the type of furniture you want: ");
         System.out.println(" 1 - Modern Furniture \n 2 - Victorian Furniture \n-1 - Exit");
         int choice = scanner.nextInt();
         int furnitureChoice;
@@ -14,7 +14,7 @@ public class Main {
         while (choice != -1) {
             switch (choice) {
                 case 1:
-                    System.out.println("Select the furniture you want");
+                    System.out.println("Select the furniture you want: ");
                     System.out.println("1 - Table \n2 - Chair \n3 - Sofa");
                     furnitureChoice = scanner.nextInt();
                     switch (furnitureChoice) {
@@ -35,7 +35,7 @@ public class Main {
                     }
                     break;
                 case 2:
-                    System.out.println("Select the furniture you want");
+                    System.out.println("Select the furniture you want: ");
                     System.out.println("1 - Table \n2 - Chair \n3 - Sofa");
                     furnitureChoice = scanner.nextInt();
                     switch (furnitureChoice) {
@@ -59,7 +59,7 @@ public class Main {
                     System.out.println("Invalid Choice");
             }
             System.out.println();
-            System.out.println("Enter the type of furniture you want");
+            System.out.println("Enter the type of furniture you want: ");
             System.out.println(" 1 - Modern Furniture \n 2 - Victorian Furniture \n-1 - Exit");
             choice = scanner.nextInt();
         }
